@@ -1,0 +1,16 @@
+{
+  "name": "trying-flow",
+  "private": true,
+  "description": "Trying out flow",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-flow": "^7.12.1",
+    "flow-bin": "^0.141.0"
+  }
+}
